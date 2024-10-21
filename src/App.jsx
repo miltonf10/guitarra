@@ -19,6 +19,7 @@ function App() {
           {data.map((guitarra) => (
             // eslint-disable-next-line react/jsx-key
             <Guitarra
+              key={guitarra.id}
               guitarra={guitarra}
             />
           ))}
